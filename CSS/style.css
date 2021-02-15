@@ -1,0 +1,189 @@
+/* Importing Utilities Class */
+@import 'utilities.css';
+
+/* colors */
+:root{
+    --primary:#FFA96B;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger: #FE4545;
+    --pure: #FEFEFE;
+    --light: #F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-font-smoothing:antialiased;
+}
+.container{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Media Queries TO make Responsive */
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1152px;
+    }
+}
+
+/* @media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+} */
+
+/* TopBar Styles from Here */
+header.topbar{
+    background: var(--secondary);
+    color: var(--pure);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: .75rem 0;
+}
+
+header.topbar .icons img{
+    margin-right: .75rem;
+}
+
+header.topbar .auth > div a{
+    color: var(--pure);
+    margin-right: .75rem;
+}
+
+
+header.topbar .auth > div img{
+    margin-right: 0.35rem;
+}
+
+
+header.topbar .auth .devider{
+    padding: 0 .75rem;
+}
+
+/* Nav Styles From here */
+
+nav{
+    margin-bottom: .75rem;
+}
+nav .top{
+    margin: 1.5rem 0;
+}
+
+.branding{
+    width: 25%;
+}
+
+.span-icon{
+    font-size: 2rem;
+    color: var(--primary);
+    margin-right: .5rem;
+}
+
+nav .container >div h5, h6{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.02rem;
+}
+
+nav .container >div h5{
+    margin-bottom: .35rem;
+    font-size: .85rem;
+}
+
+nav .container >div h6{
+    color: var(--ternary);
+    font-weight: 500;
+}
+
+nav .navbar a{
+    text-decoration: none;
+    color: var(--secondary);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    transition: all .4s ease;
+}
+
+nav .navbar a.active{
+    background: var(--primary);
+    color: var(--pure);
+}
+
+nav .navbar a:hover{
+    background: var(--primary);
+    color: var(--pure);
+}
+
+/* Hero Section Styles From here */
+
+header.hero{
+    height: 600px;
+    background: url(../Images/BannerLargeFade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 7rem 0;
+    font-family: sans-serif;
+}
+
+.header-content .welcome{
+    padding-right: 2rem;
+}
+
+.header-content .welcome h3{
+    margin-bottom: 1rem;
+    color: var(--pure);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.header-content .welcome h1{
+    margin-bottom: 1rem;
+    color: var(--pure);
+    font-size: 3rem;
+}
+
+.header-content .welcome p{
+    margin-bottom: 1rem;
+    color: var(--light);
+    opacity: .75;
+    line-height: 1.4rem;
+    letter-spacing: .005;
+}
+
+.header-content .welcome button{
+    margin-right: 1rem;
+}
+
+.highlight{
+    color: var(--primary);
+}
+
+
+
+
+
