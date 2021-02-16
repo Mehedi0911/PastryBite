@@ -20,10 +20,11 @@
 }
 
 body{
+    height: 4000px;
     -webkit-font-smoothing:antialiased;
 }
 .container{
-    max-width: 100%;
+    max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -40,6 +41,8 @@ body{
     .container{
         max-width: 960px;
     }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -167,13 +170,7 @@ header.hero{
     font-size: 3rem;
 }
 
-.header-content .welcome p{
-    margin-bottom: 1rem;
-    color: var(--light);
-    opacity: .75;
-    line-height: 1.4rem;
-    letter-spacing: .005;
-}
+
 
 .header-content .welcome button{
     margin-right: 1rem;
@@ -184,6 +181,115 @@ header.hero{
 }
 
 
+/* Top product Section Styles From Here */
+
+section{
+    padding: 4rem 0;
+}
+
+section.top-products{
+    background: var(--light);
+}
 
 
+.food-card{
+    background: var(--pure);
+    border: 3px solid var(--heaven);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: .75rem;
+    
 
+}
+
+
+.food-details .price h3{
+    color: var(--danger);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+hr{
+    border: 1px solid var(--ternary);
+    opacity: .7;
+    margin: .5rem 0;
+}
+
+.stars .filled{
+    color: var(--primary);
+}
+
+.stars .blank{
+    color: var(--footer);
+}
+
+.cart-icon{
+    background-color: var(--primary);
+    color: var(--pure);
+    padding: 8px;
+    margin-right: .35rem;
+}
+
+.cart-btn span{
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+/* About section Styles from here */
+
+.about-image{
+    
+}
+
+.about-details img{
+    border-radius: 5px;
+   height: 300px;
+    background: var(--light);
+    padding: .5rem;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .3) ;
+
+}
+
+.about-content{
+    padding-left:2rem ;
+}
+
+/* Features Section Styles From Here */
+
+section.features{
+    background: var(--light);
+}
+
+.feature-container{
+    padding-top: 5rem;
+}
+.feature-box{
+    margin-right: 2rem;
+    background: var(--pure);
+    padding: 1rem;
+    border: 3px solid transparent;
+    border-radius: 7px;
+    box-shadow:5px 7px 10px rgba(0, 0, 0, .2);
+    position: relative;
+}
+
+.feature-box img{
+    position: absolute;
+    top: -3rem;
+    transform: translateX(-50%);
+}
+
+.feature-box h2{
+    padding-top: 2.75rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary);
+    font-family: 'Raleway',sans-serif;
+    
+}
+
+.feature-box h2.special{
+    color: var(--primary);
+}

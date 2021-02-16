@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastry Bite</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="./CSS/style.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -99,17 +101,17 @@
         
         <div class="container">
             <div class="header-content dis-flex just-between align-center">
-                <div class="welcome">
-                    <h3>Have a bite With <span class="highlight">PastryBite</span></h3>
-                    <h1>Get Lost in every Bite of the <span class="highlight">World's Best Pastry</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, vel placeat. Recusandae et voluptatum quo nihil fugit velit laboriosam rem, consequuntur iusto sapiente vel hic saepe, mollitia accusamus nobis? Iusto cum maiores fugiat soluta minima.</p>
+                <div class="welcome" >
+                    <h3 data-aos="fade-right">Have a bite With <span class="highlight">PastryBite</span></h3>
+                    <h1 data-aos="fade-right">Get Lost in every Bite of the <span class="highlight">World's Best Pastry</span></h1>
+                    <p class="paragraph-light" data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, vel placeat. Recusandae et voluptatum quo nihil fugit velit laboriosam rem, consequuntur iusto sapiente vel hic saepe, mollitia accusamus nobis? Iusto cum maiores fugiat soluta minima.</p>
                     <div class="hero-btn">
                         <button class="btn-primary">GET OFFERS</button>
                         <button class="btn-secondary">SHOP NOW</button>
                     </div>
                 </div>
     
-                <div class="header-image">
+                <div class="header-image" data-aos="zoom-in">
                     <img src="./Images/HeroPastry.png" alt="">
                 </div>
             </div>
@@ -118,5 +120,171 @@
 
         
     </header>
+
+    <section class="top-products">
+        <div class="container">
+            <h1 class="section-heading">Top Products</h1>
+        <div class="slider">
+            <!-- <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+            <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button> -->
+            <div class="food-slider dis-flex just-center align-center"> 
+                <!-- slide -->
+                <div class="food-card" data-aos="fade-up">
+                    <div class="foodImage dis-flex just-center">
+                        <div class="itemImage"><img src="./Images/cake1.jpg" alt="" class="foodImage"></div>
+                    </div>
+                    <hr>
+                    <div class="food-details">
+                        <h2 class="item-header text-center">Chocholate Cake</h2>
+
+                        <div class="stars text-center">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star blank"></i>
+                            <i class="fas fa-star blank"></i>
+                        </div>
+
+                        <div class="price text-center">
+                            <h3>$1.25</h3>
+                        </div>
+
+                        <div class="dis-flex just-center">
+                            <button class="cart-btn ">
+                                <i class="fas fa-shopping-cart cart-icon"></i>
+                                <span>Add To Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- slide -->
+                <div class="food-card" data-aos="fade-down">
+                    <div class="foodImage dis-flex just-center">
+                        <div class="itemImage"><img src="./Images/cake2.jpg" alt="" class="foodImage"></div>
+                    </div>
+                    <hr>
+                    <div class="food-details">
+                        <h2 class="item-header text-center">Vanilla Cake</h2>
+
+                        <div class="stars text-center">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                        </div>
+
+                        <div class="price text-center">
+                            <h3>$1.25</h3>
+                        </div>
+
+                        <div class="dis-flex just-center">
+                            <button class="cart-btn ">
+                                <i class="fas fa-shopping-cart cart-icon"></i>
+                                <span>Add To Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- slide -->
+
+                <div class="food-card" data-aos="fade-up">
+                    <div class="foodImage dis-flex just-center">
+                        <div class="itemImage"><img src="./Images/cake3.jpg" alt="" class="foodImage"></div>
+                    </div>
+                    <hr>
+                    <div class="food-details">
+                        <h2 class="item-header text-center">Chese Cake</h2>
+
+                        <div class="stars text-center">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star blank"></i>
+                        </div>
+
+                        <div class="price text-center">
+                            <h3>$1.25</h3>
+                        </div>
+
+                        <div class="dis-flex just-center">
+                            <button class="cart-btn ">
+                                <i class="fas fa-shopping-cart cart-icon"></i>
+                                <span>Add To Cart</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- slide -->
+
+            </div>  
+
+        </div>       
+   
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h1 class="section-heading">About PastryBite</h1>
+            <div class="about-details dis-flex just-between align-center">
+                <!-- <div class="about-image dis-flex"> -->
+                    <img data-aos="fade-right" src="./Images/cake7.jpg" alt="">
+                <!-- </div> -->
+                <div class="about-content">
+                    <h3 data-aos="fade-up" class="item-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corporis quae itaque molestiae! Atque, autem.</h3>
+                    <p data-aos="fade-up" class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nesciunt delectus adipisci ipsa vero veritatis, deleniti voluptatum hic eaque esse repellendus dignissimos accusamus voluptates. Quisquam harum provident molestias corporis perspiciatis corrupti, vero iusto atque tempore commodi, in necessitatibus quaerat accusantium natus itaque nulla quidem fuga!</p>
+                    <button class="dark-btn">Read More</button>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h1 class="section-heading">Our Top Features</h1>
+            <div class="feature-container dis-flex just-between align-center text-center">
+                <div class="feature-box" data-aos="flip-left">
+                    <img src="./Icons/transport.svg" alt="">
+                    <h2>Online Pastry Delivery</h2>
+                    <p class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius deleniti culpa veritatis quibusdam molestiae cupiditate, nemo animi iste, quas dolorem atque vel magnam. Libero, dolore.</p>
+                    <button class="dark-btn">Order Online</button>
+                </div>
+                <div class="feature-box" data-aos="flip-right">
+                    <img src="./Icons/bag.svg" alt="">
+                    <h2 class="special">Online Pastry Delivery</h2>
+                    <p class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius deleniti culpa veritatis quibusdam molestiae cupiditate, nemo animi iste, quas dolorem atque vel magnam. Libero, dolore.</p>
+                    <button class="warn-btn">Order Online</button>
+                </div>
+                <div class="feature-box" data-aos="flip-left">
+                    <img src="./Icons/usd.svg" alt="">
+                    <h2>Online Pastry Delivery</h2>
+                    <p class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius deleniti culpa veritatis quibusdam molestiae cupiditate, nemo animi iste, quas dolorem atque vel magnam. Libero, dolore.</p>
+                    <button class="dark-btn">Order Online</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- All The Scripts Here -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./JS/app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset:350,
+      duration:1000
+  });
+</script>
 </body>
 </html>

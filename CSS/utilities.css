@@ -14,6 +14,13 @@
     align-items: center;
 }
 
+
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
 .m-right-5{
     margin-right: .75rem;
 }
@@ -75,4 +82,116 @@
     color: var(--pure);
     border: 3px solid transparent;
     
+}
+
+.section-heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+    color: var(--primary);
+    position: relative;
+    text-align: center;
+}
+
+.section-heading::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../Icons/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -40px;
+    
+}
+
+.item-header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin: .5rem 0;
+
+}
+
+.cart-btn{
+    border: 2px solid var(--primary);
+    border-radius: 3px;
+    color: var(--primary);
+    padding-right: 1rem;
+    font-family: sans-serif;
+    background: transparent;
+    margin-bottom: .75rem;
+    transition: all .4s ease;
+}
+
+.cart-btn:hover{
+    background: var(--primary);
+    color: var(--pure);
+}
+
+.dark-btn{
+    margin: 1rem 0;
+    padding: .45rem 1.2rem;
+    color: var(--pure);
+    background: var(--footer);
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .4s ease;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .02rem;
+
+}
+
+.dark-btn:hover{
+    background: transparent;
+    border: 2px solid var(--footer);
+    color: var(--footer);
+    cursor: pointer;
+}
+
+.warn-btn{
+    margin: 1rem 0;
+    padding: .45rem 1.2rem;
+    color: var(--pure);
+    background: var(--primary);
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .4s ease;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .02rem;
+
+}
+
+.warn-btn:hover{
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+.paragraph-dark{
+    margin-bottom: 1rem;
+    color: var(--ternary);
+    opacity: .75;
+    line-height: 1.4rem;
+    letter-spacing: .005;
+    font-family: 'Raleway', sans-serif;
+}
+
+.paragraph-light{
+    margin-bottom: 1rem;
+    color: var(--light);
+    opacity: .75;
+    line-height: 1.4rem;
+    letter-spacing: .005;
+    font-family: 'Raleway', sans-serif;
 }
