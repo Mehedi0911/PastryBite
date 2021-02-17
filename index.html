@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastry Bite</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="./CSS/style.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
 
 </head>
 <body>
@@ -271,14 +272,67 @@
         </div>
     </section>
 
+    <section class="chef-news">
+        <div class="container">
+            <h1 class="section-heading">Our Chef Says</h1>
+            <div class="about-details dis-flex just-between align-center">
+                <!-- <div class="about-image dis-flex"> -->
+                    
+                <!-- </div> -->
+                <div class="chef-content">
+                    <h3 data-aos="fade-left" class="item-header">We Take Care of Every Bite You Take</h3>
+                    <p data-aos="fade-right" class="paragraph-light"><span>"</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nesciunt delectus adipisci ipsa vero veritatis, deleniti voluptatum hic eaque esse repellendus dignissimos accusamus voluptates. Quisquam harum provident molestias corporis perspiciatis corrupti, vero iusto atque tempore commodi, in necessitatibus quaerat accusantium natus itaque nulla quidem fuga! <span>"</span></p>
+                    <button class="warn-btn">Read More</button>
+                </div>
+
+                <img data-aos="fade-right" src="./Images/chef.jpg" alt="">
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="search-food">
+        <div class="container">
+            <h1 class="section-heading">Search Your Favourite Pastry</h1>
+
+            <div class="search-box dis-flex just-center">
+                <form class="search-form" data-aos="fade-up">
+                    <input id="search-input" type="text" placeholder="Search Your Cupcake" name="search">
+                    <button id="search-btn" class="warn-btn" type="submit">Search</i></button>
+                </form>
+            </div>
+
+            <div id="food-area" class="food-results">
+                <!-- food resuls elements will go Here..... -->
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newltter-area dis-flex just-between align-center">
+                <div class="news-image">
+                    <img src="./Images/donut-transparent.png" alt="">
+                </div>
+    
+                <div class="newltter-form">
+                    <h2>Subscribe To Our Newsletter</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga ullam architecto odio consequuntur veritatis excepturi dolorum voluptate saepe modi!</p>
+                    <form>
+                        <input type="text">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
 <!-- All The Scripts Here -->
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="./JS/app.js"></script>
+<script src="./JS/api.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({

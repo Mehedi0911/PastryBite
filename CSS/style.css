@@ -299,3 +299,61 @@ section.features{
 .feature-box h2.special{
     color: var(--primary);
 }
+
+/* Chef Section Styles From Here */
+
+section.chef-news{
+    background: var(--secondary);
+}
+
+.chef-content {
+    padding-right: 3rem;
+}
+
+.chef-content p span{
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+/* Search Section Styles Goes Here */
+
+.search-box .search-form input{
+    width: 400px;
+    padding: 1rem 0.35rem;
+    margin-right: 1rem;
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--secondary);
+    
+}
+
+.search-box .search-form input:focus{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+
+.food-results{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.food-box{
+    background: var(--pure);
+    border: 3px solid var(--light);
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, .2);
+    padding: 1rem;
+}
+.food-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.food-box h3{
+    color: var(--secondary);
+    font-family: 'Raleway',sans-serif;
+}
