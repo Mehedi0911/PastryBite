@@ -310,20 +310,80 @@
 
     <section class="newsletter">
         <div class="container">
-            <div class="newltter-area dis-flex just-between align-center">
+            <div class="newletter-area dis-flex just-between align-center">
                 <div class="news-image">
-                    <img src="./Images/donut-transparent.png" alt="">
+                    <img src="./Images/donut-transparent.png" alt="" data-aos="fade-right">
                 </div>
     
-                <div class="newltter-form">
+                <div class="newletter-form" data-aos="fade-up">
                     <h2>Subscribe To Our Newsletter</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga ullam architecto odio consequuntur veritatis excepturi dolorum voluptate saepe modi!</p>
-                    <form>
-                        <input type="text">
-                        <button>Subscribe</button>
+                    <p class="paragraph-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga ullam architecto odio consequuntur veritatis excepturi dolorum voluptate saepe modi!</p>
+                    <form class="form" >
+                        <input type="text" placeholder = "Enter You Email">
+                        <button class="warn-btn">Subscribe</button>
                     </form>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <h1 class="section-heading">Latest From Our Blog</h1>
+
+            <div class="blog-details dis-flex just-between align-center">
+                
+                <img class="left-image" data-aos="fade-right" src="./Images/cake8.jpg" alt="">
+                
+                <div class="blog-content">
+                    <h3 data-aos="fade-up" class="item-header">Adipisicing elit. Ullam corporis quae itaque molestiae! Atque, autem.</h3>
+                    <p data-aos="fade-up" class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nesciunt delectus adipisci ipsa vero veritatis, deleniti voluptatum hic eaque esse repellendus dignissimos accusamus voluptates. Quisquam harum provident molestias corporis perspiciatis corrupti, vero iusto atque tempore commodi, in necessitatibus quaerat accusantium natus itaque nulla quidem fuga!</p>
+                    
+                    <div class="post-stat" data-aos="fade-up">
+                        <p>Aug 03, 2021</p>
+                        <p>Posted by <span>John Williams</span></p>
+                        <p><b>12</b> Comments</p>
+                    </div>
+
+                    <button class="dark-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="blog-details dis-flex just-between align-center">
+                <div class="blog-content">
+                    <h3 data-aos="fade-up" class="item-header">Amet consectetur adipisicing elit. Ullam corporis quae itaque molestiae! Atque, autem.</h3>
+                    <p data-aos="fade-up" class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nesciunt delectus adipisci ipsa vero veritatis, deleniti voluptatum hic eaque esse repellendus dignissimos accusamus voluptates. Quisquam harum provident molestias corporis perspiciatis corrupti, vero iusto atque tempore commodi, in necessitatibus quaerat accusantium natus itaque nulla quidem fuga!</p>
+                    
+                    <div class="post-stat" data-aos="fade-up">
+                        <p>Nov 23, 2021</p>
+                        <p>Posted by <span>Steve Jones</span></p>
+                        <p><b>21</b> Comments</p>
+                    </div>
+
+                    <button class="dark-btn">Read More</button>
+                </div>
+
+                <img class="right-image" data-aos="fade-right" src="./Images/cake9.jpg" alt="">
+            </div>
+
+            <div class="blog-details dis-flex just-between align-center">
+
+                <img class="left-image" data-aos="fade-right" src="./Images/cake10.jpg" alt="">
+
+                <div class="blog-content">
+                    <h3 data-aos="fade-up" class="item-header">Consectetur adipisicing elit. Ullam corporis quae itaque molestiae! Atque, autem.</h3>
+                    <p data-aos="fade-up" class="paragraph-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi nesciunt delectus adipisci ipsa vero veritatis, deleniti voluptatum hic eaque esse repellendus dignissimos accusamus voluptates. Quisquam harum provident molestias corporis perspiciatis corrupti, vero iusto atque tempore commodi, in necessitatibus quaerat accusantium natus itaque nulla quidem fuga!</p>
+                    
+                    <div class="post-stat" data-aos="fade-up">
+                        <p>Jan 30, 2021</p>
+                        <p>Posted by <span>Kate steven</span></p>
+                        <p><b>27</b> Comments</p>
+                    </div>
+                    
+                    <button class="dark-btn">Read More</button>
+                </div>
+            </div>
+           
         </div>
     </section>
 
@@ -336,7 +396,7 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init({
-      offset:350,
+      offset:150,
       duration:1000
   });
 </script>

@@ -240,13 +240,9 @@ hr{
 
 /* About section Styles from here */
 
-.about-image{
-    
-}
-
 .about-details img{
     border-radius: 5px;
-   height: 300px;
+    height: 300px;
     background: var(--light);
     padding: .5rem;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, .3) ;
@@ -356,4 +352,77 @@ section.chef-news{
 .food-box h3{
     color: var(--secondary);
     font-family: 'Raleway',sans-serif;
+}
+
+
+/* nesletter section styles goes here */
+
+section.newsletter{
+    background: linear-gradient(
+        rgba(35, 43, 56, 0.7),
+        rgba(35, 43, 56, 0.7)
+    ), url(../Images/BannerLarge.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.news-image img{
+    width: 100%;
+}
+
+.newletter-form{
+    margin-left: 5rem;
+}
+
+.newletter-form h2{
+    color: var(--primary);
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.form input{
+    width: 300px;
+    padding: .45rem .3rem;
+    color: var(--secondary);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+}
+
+/* blog section styles goes here */
+
+.blog-details{
+    margin-bottom: 3rem;
+}
+
+.blog-details img{
+    border-radius: 5px;
+    height: 300px;
+    background: var(--light);
+    padding: .5rem;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .3) ;
+
+}
+
+.blog-details .left-image{
+    margin-right: 3rem;
+}
+
+.blog-details .right-image{
+    margin-left: 3rem;
+}
+
+.post-stat p{
+    display: inline-block;
+    margin-right: 1rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.post-stat p span{
+    color: var(--primary);
+    font-weight: 700;
 }
