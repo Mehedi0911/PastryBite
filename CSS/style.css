@@ -426,3 +426,11 @@ section.newsletter{
     color: var(--primary);
     font-weight: 700;
 }
+
+/* contact section styles from here */
+
+section.contact{
+    background: var(--light);
+    padding: 0;
+    margin: 0;
+}
